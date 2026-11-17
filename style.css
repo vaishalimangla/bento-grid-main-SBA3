@@ -19,7 +19,7 @@ body {
 
 .container {
   max-width: 1200px;
-  width: 60vw
+  
 
 }
 
@@ -61,4 +61,8 @@ body {
 }
 .text-bento-white{
   color: var(--white);
+}
+.text-bento-yellow{
+  color: var(--yellow-500);
+   
 }
