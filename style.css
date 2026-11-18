@@ -14,7 +14,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  width: 80vw
+  width: 100vw
 }
 
 .container {
@@ -33,6 +33,7 @@ body {
 .bg-bento-cream{
   background-color: var(--yellow-100);
   border-radius: .5rem;
+  font-family: 'DM Sans', sans-serif;
 
 }
 
@@ -41,6 +42,7 @@ body {
   background-color: var(--white);
   border-radius: 1rem;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  color: var(--black);
   
 }
 
@@ -65,4 +67,7 @@ body {
 .text-bento-yellow{
   color: var(--yellow-500);
    
+}
+.text-bento-black{
+  color: var(--black);
 }
