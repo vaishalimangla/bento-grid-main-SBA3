@@ -1,4 +1,4 @@
-:root{
+:root {
   --purple-100: hsl(254, 88%, 90%);
   --purple-500: hsl(256, 67%, 59%);
   --yellow-100: hsl(31, 66%, 93%);
@@ -7,10 +7,12 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 7%);
 }
+
 @font-face {
-    font-family: 'DM Sans';
-    src: url('./assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
 }
+
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
@@ -19,55 +21,59 @@ body {
 
 .container {
   max-width: 1200px;
-  
+
 
 }
 
-.bg-bento-yellow{
+.bg-bento-yellow {
   background-color: var(--yellow-500);
   border-radius: .5rem;
   font-family: 'DM Sans', sans-serif;
-   
+
 }
 
-.bg-bento-cream{
+.bg-bento-cream {
   background-color: var(--yellow-100);
   border-radius: .5rem;
   font-family: 'DM Sans', sans-serif;
 
 }
 
-.bg-bento-white{
+.bg-bento-white {
 
   background-color: var(--white);
   border-radius: 1rem;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   color: var(--black);
-  
+
 }
 
-.bg-bento-lilac{
+.bg-bento-lilac {
   background-color: var(--purple-100);
   border-radius: .5rem;
   font-family: 'DM Sans', sans-serif;
 }
-.bg-bento-purple{
+
+.bg-bento-purple {
   background-color: var(--purple-500);
   border-radius: .5rem;
   font-family: 'DM Sans', sans-serif;
 }
 
 
-.text-bento-purple{
+.text-bento-purple {
   color: var(--purple-500);
 }
-.text-bento-white{
+
+.text-bento-white {
   color: var(--white);
 }
-.text-bento-yellow{
+
+.text-bento-yellow {
   color: var(--yellow-500);
-   
+
 }
-.text-bento-black{
+
+.text-bento-black {
   color: var(--black);
 }
